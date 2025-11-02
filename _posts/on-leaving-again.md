@@ -1,8 +1,9 @@
 ---
-title: "on leaving again"
+title: "On Leaving Again"
 date: 2025-11-02
-layout: post
 tags: [travel, work]
+layout: essay
 ---
 
-The first paragraph of the essay...
+This is a field note essay.  
+You can add multiple paragraphs, images, or code blocks for the digital journal aesthetic.
