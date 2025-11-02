@@ -1,13 +1,14 @@
 title: "Theoretically Hireable"
 description: "Field notes and essays from a working life."
-url: "https://yourusername.github.io"   # replace yourusername
-baseurl: ""                              # leave empty for user.github.io pages
+url: "https://kalin-s.github.io"
+baseurl: "/theoreticallyhireable"
+
 language: "en"
 
-# Theme
+# Minimal theme
 remote_theme: pages-themes/minimal@latest
 
-# Plugins supported by GitHub Pages
+# GitHub-supported plugins
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
@@ -15,11 +16,11 @@ plugins:
 markdown: kramdown
 highlighter: rouge
 
-# Custom collection for freeform essays
+# Essays collection
 collections:
   essays:
     output: true
-    permalink: /essays/:title/
+    permalink: /theoreticallyhireable/:collection/:title/
 
 # Include assets folder
 include:
