@@ -8,7 +8,7 @@
     <title>{{ page.title | default: site.title }}</title>
     <meta name="description" content="{{ page.excerpt | strip_html | truncate: 160 | default: site.description }}">
     {%- seo -%}
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   </head>
   <body>
     <div class="container">
@@ -22,6 +22,13 @@
       </header>
 
       <main>
+        {% if page.title and page.layout == 'default' and page.path contains '_essays/' %}
+          <h2 class="essay-title">{{ page.title }}</h2>
+          {% if page.date %}
+            <p class="post-meta">{{ page.date | date: "%B %-e, %Y" }}</p>
+          {% endif %}
+        {% endif %}
+
         {{ content }}
       </main>
 
