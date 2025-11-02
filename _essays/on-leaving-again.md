@@ -2,7 +2,7 @@
 title: "On Leaving Again"
 date: 2025-11-02
 tags: [travel, work]
-layout: essay
+layout: default
 ---
 
 The first paragraph of the essay goes here.  
