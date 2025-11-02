@@ -5,6 +5,8 @@ tags: [travel, work]
 layout: default
 ---
 
+First paragraph.
+
 There’s a stretch of road between Tucson and Bisbee that feels like a half-finished sentence. You pass the copper pits, the ghost motels, the stretches of desert where telephone poles lean like old men who’ve seen too much. I drive it more than I should, mostly at night, when the only company is the hum of the tires and the occasional coyote sprinting through my headlights.
 
 Lately I’ve been thinking about the space between jobs—the slow bleed between one project wrapping and another barely taking shape. Everyone talks about momentum, but no one talks about the stillness that follows. It’s not failure, exactly. It’s more like your hands remember what to do, but the world hasn’t asked you to do it yet.
