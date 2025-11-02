@@ -6,7 +6,7 @@ baseurl: "/theoreticallyhireable"
 language: "en"
 
 # Theme
-remote_theme: pages-themes/minimal@latest
+theme: minimal
 
 # Supported plugins
 plugins:
