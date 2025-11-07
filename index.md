@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 31N 110W
+title: 31.5N 110.5W
 ---
 
 {% for essay in site.essays %}
