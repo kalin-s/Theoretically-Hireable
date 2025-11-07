@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 31° n, 139° w
+title: 31N 139W
 ---
 
 {% for essay in site.essays %}
